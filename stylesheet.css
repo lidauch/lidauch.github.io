@@ -1,9 +1,4 @@
-.table-backgrounds {
-  background-size: cover;
-  align-content: stretch;
-}
-
-img {
-  height:100px;
-  width:100px;
+table img {
+  height:20%;
+  width:20%;
 }
