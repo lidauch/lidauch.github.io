@@ -1,6 +1,9 @@
+#header {
+   text-align:center;
+}
+
 ul {
    list-style-type:none;
-   left:50%;
 }
 
 li {
