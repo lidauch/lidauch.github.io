@@ -8,5 +8,7 @@ table img {
 }
 
 td {
+   width:35%;
+   height:20%;
    background-color:#F8F8F8;
 }
