@@ -1,4 +1,6 @@
 #header {
+   position:relative;
+   left:50%;
    text-align:center;
 }
 
