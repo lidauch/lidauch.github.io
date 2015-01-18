@@ -5,13 +5,8 @@ table {
 }
 
 table img {
-   height:300px;
-   width:300px;
-   align-items:center;
-
 }
 
 td {
    background-color:#F8F8F8;
-   align-content:center;
 }
