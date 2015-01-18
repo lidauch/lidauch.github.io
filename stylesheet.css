@@ -5,6 +5,9 @@ table {
 }
 
 table img {
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
 }
 
 td {
