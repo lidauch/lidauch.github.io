@@ -19,6 +19,8 @@ table {
    width:70%;
    height:60%;
    margin:5% 15%;
+   padding:10px;
+   border-radius:30px;
 }
 
 table img {
