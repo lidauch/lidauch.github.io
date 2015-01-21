@@ -34,10 +34,9 @@ table img {
 
 .tableimages {
    position:relative;
-   width:100%;
 }
 
-table div h2 {
+table h2 {
    position:absolute;
    top:50%;
    left:50%;
