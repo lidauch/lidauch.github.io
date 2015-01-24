@@ -54,6 +54,7 @@ td {
    background-color:black;
    text-align:center;
    margin:auto;
+   position:relative;
    z-index:1;
    color:white;
    vertical-align:middle;
