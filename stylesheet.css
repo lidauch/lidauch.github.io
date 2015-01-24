@@ -38,12 +38,12 @@ td {
    vertical-align:bottom;
    width:50%;
    height:450px;
+   font-size:100%;
 }
 
 td a {
    text-decoration:none;
    color:white;
-   font-size:100%;
    display:block;
    position:absolute;
    top:0;
