@@ -4,10 +4,10 @@
    height:150px;
    width:45%;
    margin:10px auto;
-   border:5px solid #53868b;
+   border:5px solid #7ac5cd;
    border-radius:30px;
    padding:30px;
-   background-color:#7ac5cd;
+   background-color:#53868b;
 }
 
 h1 {
@@ -38,15 +38,15 @@ table {
    width:70%;
    height:60%;
    margin:auto;
-   border:5px solid #53868b;
+   border:5px solid #7ac5cd;
    border-radius:30px;
-   background-color:#53868b;
+   background-color:#7ac5cd;
 }
 
 td {
-   border:5px solid #53868b;
+   border:5px solid #7ac5cd;
    border-radius:30px;
-   background-color:#53868b;
+   background-color:#7ac5cd;
    position:relative;
    text-align:center;
    vertical-align:baseline;
