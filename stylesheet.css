@@ -4,6 +4,7 @@
    height:150px;
    width:69%;
    margin:auto;
+   border:5px solid #53868b;
    border-radius:30px;
    padding:10px;
    background-color:#7ac5cd;
@@ -12,16 +13,18 @@
 }
 
 h1 {
+   font-size:100px;
+   margin:auto;
    vertical-align:middle;
-   text-align:center;
 }
 
 ul {
    list-style-type:none;
-   text-align:center;
+   margin:auto;
 }
 
 li {
+   font-size:20px;
    display: inline;
 }
 
