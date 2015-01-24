@@ -54,28 +54,46 @@ td a {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
 }
-
 #aboutme:hover {
-   opacity:0.4;
+   opacity:0.7;
 }
 
 #professional {
    background-image:url('/Images/Europe.jpg');
    background-size:100% 100%;
 }
+#professional:hover {
+   opacity:.7;
+}
+
 #feedbackloop {
    background-image:url('/Images/HalfMarathon.jpg');
    background-size:100% 100%;
 }
+#feedbackloop:hover {
+   opacity:0.5;
+}
+
 #projects {
    background-image:url('/Images/Gambella.jpg');
    background-size:100% 100%;
 }
+#projects:hover {
+   opacity:0.3;
+}
+
 #blog {
    background-image:url('/Images/Flower.jpg');
    background-size:100% 100%;
 }
+#blog:hover {
+   opacity:0.1;
+}
+
 #photography {
    background-image:url('/Images/FujiSan.jpg');
    background-size:100% 100%;
+}
+#photography:hover {
+   opacity:0.9;
 }
