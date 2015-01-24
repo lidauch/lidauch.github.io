@@ -57,6 +57,7 @@ td a {
    background-size:100% 100%;
 }
 #aboutme:hover {
+   background-color:white;
    opacity:0.5;
 }
 
