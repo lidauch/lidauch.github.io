@@ -29,12 +29,12 @@ table {
 }
 
 td {
+   border:10px solid black;
    border-radius:30px;
    background-color:black;
    position:relative;
    text-align:center;
    vertical-align:bottom;
-   padding:30px;
    width:50%;
    height:450px;
 }
