@@ -39,6 +39,10 @@ td {
    height:450px;
 }
 
+td div {
+   display:block;
+}
+
 td a {
    text-decoration:none;
    color:white;
