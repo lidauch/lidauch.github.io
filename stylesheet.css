@@ -30,9 +30,10 @@ table img {
    margin-left:auto;
    margin-right:auto;
    border-radius:30px;
+   position:relative;
 }
 
-.tableimage {
+/*.tableimage {
    position:relative;
    width:100%;
 }
@@ -43,9 +44,11 @@ td h2 {
    top:50%;
    left:50%;
 }
-
+*/
 td {
    text-align:center;
+   color:white;
+   position:absolute;
    border-radius:30px;
    background-color:black;
 }
