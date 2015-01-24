@@ -30,6 +30,7 @@ table img {
    margin-left:auto;
    margin-right:auto;
    border-radius:30px;
+   position:relative;
    z-index:0;
 }
 /*
@@ -46,6 +47,8 @@ td h2 {
 td {
    color:white;
    text-align:center;
+   position:relative;
    border-radius:30px;
    background-color:black;
+   z-index:1;
 }
