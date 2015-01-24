@@ -79,7 +79,7 @@ td a {
    background-size:100% 100%;
 }
 #projects:hover {
-   opacity:1.2;
+   opacity:0.5;
 }
 
 #blog {
@@ -87,7 +87,7 @@ td a {
    background-size:100% 100%;
 }
 #blog:hover {
-   opacity:1.5;
+   opacity:0.5;
 }
 
 #photography {
@@ -95,5 +95,5 @@ td a {
    background-size:100% 100%;
 }
 #photography:hover {
-   opacity:2;
+   opacity:0.5;
 }
