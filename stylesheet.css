@@ -28,6 +28,10 @@ table {
    background-color:black;
 }
 
+.AboutMeCell {
+   background-image:url('/Images/AboutMe.jpg');
+}
+
 td {
    border-radius:30px;
    background-color:black;
@@ -40,8 +44,8 @@ td img {
    margin-right:auto;
    border-radius:30px;
 }
-
+/*
 td div {
    position:relative;
    z-index:2;
-}
+}*/
