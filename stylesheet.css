@@ -47,19 +47,19 @@ td {
 }
 #feedbackloop {
    background-image:url('/Images/AHalfMarathon.jpg');
-   background-size:100%;
+   background-size:100% 100%;
 }
 #projects {
    background-image:url('/Images/Gambella.jpg');
-   background-size:100%;
+   background-size:100% 100%;
 }
 #blog {
    background-image:url('/Images/Flower.jpg');
-   background-size:100%;
+   background-size:100% 100%;
 }
 #photography {
    background-image:url('/Images/FujiSan.jpg');
-   background-size:100%;
+   background-size:100% 100%;
 }
 
 /*
