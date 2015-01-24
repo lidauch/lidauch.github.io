@@ -18,7 +18,7 @@ li {
 table {
    width:70%;
    height:60%;
-   margin:5% 15%;
+   margin:auto;
    border:5px solid black;
    border-radius:30px;
    background-color:black;
