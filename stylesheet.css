@@ -23,7 +23,8 @@ h1 {
 
 #headerlist {
    list-style-type:none;
-   margin:auto;
+   margin:0;
+   padding:0;
    text-align:center;
 
 }
@@ -50,6 +51,7 @@ td {
    background-color:#53868b;
    position:relative;
    text-align:center;
+   vertical-align:bottom;
    width:50%;
    height:450px;
 }
@@ -60,6 +62,7 @@ td a {
    color: #e5e5e5;
    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
    display:block;
+   height:100%;
    position:absolute;
    top:0;
    bottom:0;
