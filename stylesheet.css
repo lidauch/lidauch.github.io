@@ -33,7 +33,7 @@ td {
    background-color:black;
    position:relative;
    text-align:center;
-   vertical-align:text-bottom;
+   vertical-align:bottom;
    width:50%;
    height:450px;
 }
