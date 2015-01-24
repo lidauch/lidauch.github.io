@@ -30,13 +30,15 @@ table img {
    margin-left:auto;
    margin-right:auto;
    border-radius:30px;
+}
+
+.tableimage {
+   width:100%;
    position:relative;
    z-index:0;
 }
+
 /*
-.tableimage {
-   width:100%;
-}
 
 td h2 {
    position:absolute;
