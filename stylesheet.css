@@ -38,8 +38,7 @@ h1 {
 table {
    width:70%;
    height:60%;
-   margin:auto;
-   float:center;
+   margin:150px auto;
    border:5px solid #7ac5cd;
    border-radius:30px;
    background-color:#7ac5cd;
