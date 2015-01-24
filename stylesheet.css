@@ -56,7 +56,13 @@ td {
 }
 
 td div {
-   vertical-align:center;
+   text-align:center;
+}
+
+div span {
+   display:inline-block;
+   vertical-align:middle;
+   
 }
 
 td a {
