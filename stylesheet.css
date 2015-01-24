@@ -28,6 +28,16 @@ table {
    background-color:black;
 }
 
+td {
+   border-radius:30px;
+   background-color:black;
+   text-align:center;
+   vertical-align:middle;
+   position:relative;
+   color:white;
+}
+
+/*
 table img {
    display:block;
    width:670px;
@@ -38,7 +48,7 @@ table img {
    z-index:0;
 }
 
-/*
+
 .tableimage {
    width:100%;
 }
@@ -48,14 +58,3 @@ td h2 {
    color:white;
    margin:auto;
 }*/
-
-td {
-   border-radius:30px;
-   background-color:black;
-   text-align:center;
-   margin:auto;
-   position:relative;
-   z-index:1;
-   color:blue;
-   vertical-align:middle;
-}
