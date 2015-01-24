@@ -59,7 +59,7 @@ td a {
    text-decoration:none;
    font: 400 100px/1.7 'Arizonia', Helvetica, sans-serif;
    color: #e5e5e5;
-   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+   text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
    display:block;
    position:absolute;
    top:0;
