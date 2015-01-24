@@ -27,8 +27,7 @@ h1 {
 }
 
 #headerlist li {
-   font-size:20px;
-   font:'Arizonia';
+   font: 200 20px/1 'Arizonia', Helvetica, sans-serif;
    color:#e5e5e5;
    display:inline;
 }
