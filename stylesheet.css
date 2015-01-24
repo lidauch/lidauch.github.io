@@ -30,6 +30,7 @@ table img {
    margin-left:auto;
    margin-right:auto;
    border-radius:30px;
+   position:absolute;
 }
 
 .tableimage {
@@ -40,8 +41,7 @@ table img {
 td h2 {
    position:absolute;
    color:white;
-   top:50%;
-   left:50%;
+   
 }
 
 td {
