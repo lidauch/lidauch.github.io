@@ -7,7 +7,6 @@
    border:2px solid #7ac5cd;
    border-radius:30px;
    background-color:#53868b;
-   display:block;
    position:fixed;
 }
 
@@ -63,7 +62,6 @@ td a {
    display:block;
    height:100%;
    position:absolute;
-   vertical-align:bottom;
    top:0;
    bottom:0;
    left:0;
