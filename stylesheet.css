@@ -32,10 +32,10 @@ table img {
    border-radius:30px;
 }
 
-.tableimage {
+/*.tableimage {
    position:relative;
    width:100%;
-}
+}*/
 
 a h2 {
    position:absolute;
@@ -45,6 +45,7 @@ a h2 {
 }
 
 td {
+   position:relative;
    border-radius:30px;
    background-color:black;
 }
