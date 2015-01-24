@@ -39,6 +39,12 @@ td {
    height:450px;
 }
 
+td div {
+   text-decoration:none;
+   color:white;
+   font-size:200px;
+}
+
 #aboutme {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
