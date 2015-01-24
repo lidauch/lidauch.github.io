@@ -61,4 +61,6 @@ table p {
    z-index:1;
    color:white;
    text-align:center;
+   top:50%;
+   left:50%;
 }
