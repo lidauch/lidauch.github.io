@@ -37,6 +37,31 @@ td {
    color:white;
 }
 
+#aboutme {
+   background-image:url('/Images/AboutMe.jpg');
+   background-size:100%;
+}
+#professional {
+   background-image:url('/Images/Europe.jpg');
+   background-size:100%;
+}
+#feedbackloop {
+   background-image:url('/Images/AHalfMarathon.jpg');
+   background-size:100%;
+}
+#projects {
+   background-image:url('/Images/Gambella.jpg');
+   background-size:100%;
+}
+#blog {
+   background-image:url('/Images/Flower.jpg');
+   background-size:100%;
+}
+#photography {
+   background-image:url('/Images/FujiSan.jpg');
+   background-size:100%;
+}
+
 /*
 table img {
    display:block;
