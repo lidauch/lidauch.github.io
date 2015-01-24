@@ -37,15 +37,14 @@ table img {
    width:100%;
 }
 
-td h2 {
+a h2 {
    position:absolute;
    color:white;
    vertical-align:middle;
-   
+   text-align:center;
 }
 
 td {
-   text-align:center;
    border-radius:30px;
    background-color:black;
 }
