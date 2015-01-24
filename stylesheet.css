@@ -31,15 +31,15 @@ table {
    width:70%;
    height:60%;
    margin:auto;
-   border:5px solid black;
+   border:5px solid #53868b;
    border-radius:30px;
-   background-color:black;
+   background-color:#53868b;
 }
 
 td {
-   border:5px solid black;
+   border:5px solid #53868b;
    border-radius:30px;
-   background-color:black;
+   background-color:#53868b;
    position:relative;
    text-align:center;
    vertical-align:bottom;
