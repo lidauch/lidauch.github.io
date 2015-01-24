@@ -1,8 +1,12 @@
 /*Header*/
 
 #header {
-   left:50%;
+   height:15%;
+   width:70%;
+   margin:auto;
+   background-color:#7ac5cd;
    color:white;
+   
 }
 
 h1 {
