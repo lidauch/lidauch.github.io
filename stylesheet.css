@@ -39,27 +39,27 @@ td {
 
 #aboutme {
    background-image:url('/Images/AboutMe.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 #professional {
    background-image:url('/Images/Europe.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 #feedbackloop {
    background-image:url('/Images/AHalfMarathon.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 #projects {
    background-image:url('/Images/Gambella.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 #blog {
    background-image:url('/Images/Flower.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 #photography {
    background-image:url('/Images/FujiSan.jpg');
-   background-size:670px;
+   background-size:inherit;
 }
 
 /*
