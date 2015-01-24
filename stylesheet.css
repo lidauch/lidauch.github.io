@@ -54,16 +54,6 @@ td {
    height:450px;
 }
 
-td div {
-   text-align:center;
-}
-
-div span {
-   display:inline-block;
-   vertical-align:bottom;
-   
-}
-
 td a {
    text-decoration:none;
    font: 400 100px/1.7 'Arizonia', Helvetica, sans-serif;
