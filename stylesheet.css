@@ -22,12 +22,13 @@ h1 {
 #headerlist {
    list-style-type:none;
    margin:auto;
+   text-align:center;
+
 }
 
 #headerlist li {
    font-size:20px;
    display:inline;
-   text-align:center;
 }
 
 /*Homepage*/
