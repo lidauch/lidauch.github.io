@@ -50,7 +50,6 @@ td {
    background-color:#53868b;
    position:relative;
    text-align:center;
-   vertical-align:bottom;
    width:50%;
    height:450px;
 }
@@ -61,7 +60,7 @@ td div {
 
 div span {
    display:inline-block;
-   vertical-align:middle;
+   vertical-align:bottom;
    
 }
 
