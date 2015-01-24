@@ -22,6 +22,7 @@ h1 {
 #headerlist {
    list-style-type:none;
    margin:auto;
+   text-align:center;
 }
 
 #headerlist li {
