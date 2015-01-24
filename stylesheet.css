@@ -55,7 +55,7 @@ td a {
    background-size:100% 100%;
 }
 #aboutme:hover {
-   opacity:0.7;
+   opacity:0.5;
 }
 
 #professional {
@@ -63,7 +63,7 @@ td a {
    background-size:100% 100%;
 }
 #professional:hover {
-   opacity:.7;
+   opacity:0.5;
 }
 
 #feedbackloop {
@@ -79,7 +79,7 @@ td a {
    background-size:100% 100%;
 }
 #projects:hover {
-   opacity:0.3;
+   opacity:1.2;
 }
 
 #blog {
@@ -87,7 +87,7 @@ td a {
    background-size:100% 100%;
 }
 #blog:hover {
-   opacity:0.1;
+   opacity:1.5;
 }
 
 #photography {
@@ -95,5 +95,5 @@ td a {
    background-size:100% 100%;
 }
 #photography:hover {
-   opacity:0.9;
+   opacity:2;
 }
