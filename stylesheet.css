@@ -1,3 +1,5 @@
+/*Header*/
+
 #header {
    left:50%;
 }
@@ -15,6 +17,8 @@ li {
    display: inline;
 }
 
+/*Homepage Table*/
+
 table {
    width:70%;
    height:60%;
@@ -27,12 +31,8 @@ table {
 td {
    border-radius:30px;
    background-color:black;
-}
-
-td div {
-   margin-left:auto;
-   margin-right:auto;
-   position:relative;
+   position:absolute;
+   z-index:1;
 }
 
 td img {
@@ -43,14 +43,7 @@ td img {
    border-radius:30px;
 }
 
-/*.tableimage {
+td div {
    position:relative;
-   width:100%;
-}*/
-
-td div h2 {
-   text-align:center;
-   color:white;
-   position:absolute;
+   z-index:2;
 }
-
