@@ -28,7 +28,8 @@ h1 {
 
 #headerlist li {
    font-size:20px;
-   font-family:Cursive;
+   font:'Arizona';
+   color:#e5e5e5;
    display:inline;
 }
 
