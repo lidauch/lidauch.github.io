@@ -54,6 +54,11 @@ td a {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
 }
+
+#aboutme:hover {
+   opacity:0.5;
+}
+
 #professional {
    background-image:url('/Images/Europe.jpg');
    background-size:100% 100%;
