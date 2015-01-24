@@ -53,13 +53,9 @@ td {
    border-radius:30px;
    background-color:black;
    text-align:center;
-}
-
-table p {
    position:absolute;
    margin:auto;
    z-index:1;
    color:white;
-   text-align:center;
-   top:50%;
+   vertical-align:middle;
 }
