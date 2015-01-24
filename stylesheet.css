@@ -42,7 +42,7 @@ td {
 
 td a {
    text-decoration:none;
-   color:white;
+   color:rgba(208,208,208,1);
    font-size:100px;
    display:block;
    position:absolute;
@@ -50,6 +50,10 @@ td a {
    bottom:0;
    left:0;
    right:0;
+}
+
+td a:hover {
+   color:rgba(208,208,208,0.5);
 }
 
 #aboutme {
