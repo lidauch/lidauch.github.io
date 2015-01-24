@@ -68,13 +68,13 @@ td a {
 }
 
 #aboutme {
-   background-color:white;
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
    text-align:center;
    vertical-align:middle;
 }
 #aboutme:hover {
+   background-color:white;
    opacity:0.7;
 }
 
