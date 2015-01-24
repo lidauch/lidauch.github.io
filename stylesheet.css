@@ -34,7 +34,7 @@ td {
    position:relative;
    text-align:center;
    vertical-align:bottom;
-   color:white;
+   padding:10px;
    width:50%;
    height:450px;
 }
