@@ -70,9 +70,11 @@ td a {
 #aboutme {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
+   text-align:center;
+   vertical-align:middle;
 }
 #aboutme:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
 
 #professional {
@@ -80,7 +82,7 @@ td a {
    background-size:100% 100%;
 }
 #professional:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
 
 #feedbackloop {
@@ -88,7 +90,7 @@ td a {
    background-size:100% 100%;
 }
 #feedbackloop:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
 
 #projects {
@@ -96,7 +98,7 @@ td a {
    background-size:100% 100%;
 }
 #projects:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
 
 #blog {
@@ -104,7 +106,7 @@ td a {
    background-size:100% 100%;
 }
 #blog:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
 
 #photography {
@@ -112,5 +114,5 @@ td a {
    background-size:100% 100%;
 }
 #photography:hover {
-   opacity:0.5;
+   opacity:0.7;
 }
