@@ -3,9 +3,9 @@
 #header {
    padding:30px;
    margin:auto;
-   border:5px solid #7ac5cd;
+   border:5px solid #53868b;
    border-radius:30px;
-   background-color:#53868b;
+   background-color:#7ac5cd;
    position:fixed;
 }
 
@@ -37,16 +37,16 @@ table {
    width:70%;
    height:60%;
    margin:auto;
-   border:5px solid #7ac5cd;
+   border:5px solid #53868b;
    border-radius:30px;
-   background-color:#7ac5cd;
+   background-color:#53868b;
    float:right;
 }
 
 td {
-   border:5px solid #7ac5cd;
+   border:5px solid #53868b;
    border-radius:29px;
-   background-color:#7ac5cd;
+   background-color:#53868b;
    position:relative;
    text-align:center;
    vertical-align:baseline;
