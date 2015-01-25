@@ -1,8 +1,7 @@
 /*Header*/
 
 #header {
-   height:300px;
-   width:270px;
+   padding:30px;
    margin:auto;
    border:5px solid #7ac5cd;
    border-radius:30px;
