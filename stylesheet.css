@@ -3,7 +3,7 @@
 #header {
    padding:30px;
    margin:auto;
-   border:5px solid #53868b;
+   border:5px solid #ccee00;
    border-radius:30px;
    background-color:#7ac5cd;
    position:fixed;
@@ -37,7 +37,7 @@ table {
    width:70%;
    height:60%;
    margin:auto;
-   border:5px solid #53868b;
+   border:5px solid #ccee00;
    border-radius:30px;
    background-color:#53868b;
    float:right;
