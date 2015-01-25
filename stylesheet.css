@@ -1,12 +1,11 @@
 /*Header*/
 
 #header {
-   height:500px;
+   height:300px;
    width:270px;
    margin:auto;
    border:5px solid #7ac5cd;
    border-radius:30px;
-   padding:30px;
    background-color:#53868b;
    position:fixed;
 }
