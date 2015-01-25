@@ -38,11 +38,11 @@ h1 {
 table {
    width:70%;
    height:60%;
-   margin:50px auto;
+   margin:130px auto;
    border:5px solid #7ac5cd;
    border-radius:30px;
    background-color:#7ac5cd;
-   float:right;
+   float:center;
 }
 
 td {
