@@ -43,7 +43,7 @@ table {
    margin:auto;
    border:5px solid #F98A5F;
    border-radius:30px;
-   background-color:#F8E1B4;
+   background-color:white;
    float:right;
 }
 
@@ -75,6 +75,7 @@ td a {
 #aboutme {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
+   border-radius:31px;
 }
 #aboutme:hover {
    opacity:0.7;
