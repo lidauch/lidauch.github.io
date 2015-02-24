@@ -72,7 +72,7 @@ td a {
 #aboutme {
    background-image:url('/Images/AboutMe.jpg');
    background-size:100% 100%;
-   border-radius:30px;
+   border-radius:25px;
 }
 #aboutme:hover {
    opacity:0.7;
@@ -81,6 +81,7 @@ td a {
 #professional {
    background-image:url('/Images/Europe.jpg');
    background-size:100% 100%;
+   border-radius:25px;
 }
 #professional:hover {
    opacity:0.7;
@@ -89,6 +90,7 @@ td a {
 #feedbackloop {
    background-image:url('/Images/HalfMarathon.jpg');
    background-size:100% 100%;
+   border-radius:25px;
 }
 #feedbackloop:hover {
    opacity:0.7;
@@ -97,6 +99,7 @@ td a {
 #projects {
    background-image:url('/Images/Gambella.jpg');
    background-size:100% 100%;
+   border-radius:25px;
 }
 #projects:hover {
    opacity:0.7;
@@ -105,6 +108,7 @@ td a {
 #blog {
    background-image:url('/Images/Flower.jpg');
    background-size:100% 100%;
+   border-radius:25px;
 }
 #blog:hover {
    opacity:0.7;
@@ -113,6 +117,7 @@ td a {
 #photography {
    background-image:url('/Images/FujiSan.jpg');
    background-size:100% 100%;
+   border-radius:25px;
 }
 #photography:hover {
    opacity:0.7;
