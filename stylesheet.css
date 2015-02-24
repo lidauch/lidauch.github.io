@@ -37,6 +37,13 @@ body {
    background-color:#67727A;
 }
 
+#quote {
+   text-align:center;
+   vertical-align:middle;
+   font: 500 25px/1 'Arizonia', Helvetica, sans-serif;
+   color:#25AAA0;
+}
+
 table {
    width:70%;
    height:60%;
