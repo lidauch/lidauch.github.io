@@ -5,7 +5,7 @@
    margin:auto;
    border:5px solid #F5F5F5;
    border-radius:30px;
-   background-color:#ecf9b2;
+   background-color:#D75C37;
    position:fixed;
 }
 
@@ -14,7 +14,7 @@ h1 {
    margin:auto;
    vertical-align:middle;
    font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
-   color: #2a7a78;
+   color: #e5e5e5;
    text-shadow: 4px 4px 0px rgba(116,199,185,.1);
 }
 
