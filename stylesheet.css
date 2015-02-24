@@ -43,6 +43,7 @@ body {
    font: 500 25px/1 'Arizonia', Helvetica, sans-serif;
    color:#25AAA0;
    
+   position:relative;
    padding:30px;
    float:left;
 }
