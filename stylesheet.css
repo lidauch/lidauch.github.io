@@ -45,7 +45,8 @@ body {
    
    position:fixed;
    float:left;
-   top:25%;
+   top:40%;
+   width:60px;
 }
 
 table {
