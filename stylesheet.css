@@ -33,20 +33,24 @@ h1 {
 
 /*Homepage*/
 
+body {
+   background-color:#442D65
+}
+
 table {
    width:70%;
    height:60%;
    margin:auto;
-   border:5px solid #ccee00;
+   border:5px solid #F98A5F;
    border-radius:30px;
-   background-color:#53868b;
+   background-color:#F8E1B4;
    float:right;
 }
 
 td {
-   border:5px solid #53868b;
-   border-radius:29px;
-   background-color:#53868b;
+   border:5px solid #F8E1B4;
+   border-radius:30px;
+   background-color:#F8E1B4;
    position:relative;
    text-align:center;
    vertical-align:baseline;
