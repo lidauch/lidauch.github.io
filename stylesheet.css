@@ -40,7 +40,7 @@ body {
 #quote {
    text-align:center;
    vertical-align:middle;
-   font: 500 40px/1.2 'Arizonia', Helvetica, sans-serif;
+   font: 500 35px/1.2 'Arizonia', Helvetica, sans-serif;
    color:#C3D7DF;
    position:fixed;
    float:left;
@@ -55,7 +55,7 @@ table {
    margin:auto;
    border:5px solid #F5F5F5;
    border-radius:30px;
-   background-color:#C3D7DF;
+   background-color:#F5F5F5;
    float:right;
 }
 
