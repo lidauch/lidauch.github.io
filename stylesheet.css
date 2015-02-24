@@ -40,12 +40,12 @@ body {
 #quote {
    text-align:center;
    vertical-align:middle;
-   font: 500 60px/1.2 'Arizonia', Helvetica, sans-serif;
+   font: 500 40px/1.2 'Arizonia', Helvetica, sans-serif;
    color:#C3D7DF;
    position:fixed;
    float:left;
    padding:30px;
-   top:40%;
+   top:30%;
    width:25%;
 }
 
