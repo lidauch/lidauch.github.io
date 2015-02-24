@@ -70,8 +70,8 @@ td {
 td a {
    text-decoration:none;
    font: 400 100px/1.7 'Arizonia', Helvetica, sans-serif;
-   color: #67727a;
-   text-shadow: 4px 4px 0px rgba(245,245,245,.4);
+   color: #F5F5F5;
+   text-shadow: 4px 4px 0px rgba(0,0,0,.1);
    display:block;
    height:100%;
    position:absolute;
