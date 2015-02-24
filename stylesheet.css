@@ -45,6 +45,7 @@ body {
    
    position:fixed;
    padding:30px;
+   float:left;
 }
 
 table {
