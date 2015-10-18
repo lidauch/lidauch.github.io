@@ -1,0 +1,56 @@
+body {
+  background-color: black; }
+
+.page {
+  background: url("../images/Europe.jpg") 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 1000px;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8); }
+
+#slide1 {
+  background-image: url("../images/Flower.jpg"); }
+  #slide1 div {
+    text-align: center;
+    margin: 300px auto;
+    position: fixed;
+    width: 100%; }
+
+#slide2 {
+  background-image: url("../images/Europe.jpg"); }
+  #slide2 div {
+    text-align: center;
+    margin: 35% auto;
+    position: absolute;
+    width: 100%; }
+
+#home {
+  background-image: url("../images/StolenBackground.jpg");
+  width: 80%; }
+  #home #nav {
+    margin: auto;
+    padding: 750px 0 0 0;
+    text-align: center; }
+    #home #nav div {
+      width: 200px;
+      height: 150px;
+      color: white;
+      list-style-type: none;
+      display: inline-block; }
+      #home #nav div img {
+        position: relative;
+        top: 50px;
+        display: block;
+        margin: auto; }
+      #home #nav div p {
+        position: relative;
+        top: 50%; }
+  #home #footer {
+    color: white;
+    position: fixed; }
+
+/*# sourceMappingURL=global.css.map */

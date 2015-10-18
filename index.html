@@ -1,63 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<!-- CSS -->
+		<link type="text/css" rel="stylesheet" href="src/css/global.css"/>
 		<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
+		<!-- JS -->
+		<script type="text/javascript" src="src/js/main.js"></script>
+		<script src="jquery-2.1.4.min.js"></script>
 		<title>
 			Lydia Auch
 		</title>
-
 	</head>
 	<body>
-		<div id="header">
-			<h1>Lydia Auch</h1>
-			<ul id="headerlist">
-				<li>Boston |</li>
-				<li> Northeastern |</li>
-				<li> Chicago</li>
-			</ul>
-		</div>
-		<div id="quote">
-			<p>"The greatest pleasure in life is doing the things people say you cannot do."</p>
-			<p>~Walter Bagehot~</p>
-		</div>
-	<table>
-			<tr> 
-				<td id="one">
-					<a href="aboutme.html">
-						<div style="height:100%; width:100%">About Me</div>
-					</a>
-				</td>
-				<td id="two">
-					<a href="/Professional">
-						<div style="height:100%; width:100%">Professional</div>
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td id="three">
-					<a href="/FeedbackLoop">
-						<div style="height:100%; width:100%">Feedback Loop</div>
-					</a>
-				</td>
-				<td id="four">
-					<a href="/Projects">
-						<div style="height:100%; width:100%">Projects</div>
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td id="five">
-					<a href="/Photography">
-						<div style="height:100%; width:100%">Photography</div>
-					</a>
-				</td>
-				<td id="six">
-					<a href="/Blog">
-						<div style="height:100%; width:100%">Blog</div>
-					</a>
-				</td>
-			</tr>
-		</table>
+		<section id="slide1" class="page" data-type="background" data-speed="10">
+			<div id="introtext">
+				<h1>Lydia Auch</h1>
+				<p>Boston | Northeastern University | Chicago</p>
+				<p id="arrow">v</p>
+			</div>
+		</section>
+		<section id="slide2" class="page" data-type="background" data-speed="10">
+			<div>
+				<p>"The greatest pleasure in life is doing the things people say you cannot do."</p>
+				<p>~Walter Bagehot~</p>
+			</div>
+		</section>
+		<section id="home" class="page">
+			<div id="nav">
+				<div id="about">
+					<img src="../Flower.jpg">
+					<p>About Me</p></div>
+				<div id="pro"><p>Professional</p></div>
+				<div id="photo"><p>Photography</p></div>
+				<div id="blog"><p>Blog</p></div>
+			</div>
+			<div id="footer">
+				<p>THIS IS THE FOOTER</p>
+			</div>
+		</section>
 	</body>
 </html>
