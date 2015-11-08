@@ -1,0 +1,102 @@
+body {
+   background-color: black;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+
+.page {
+   background-size: cover;
+   min-height: 1000px;
+   position: relative;
+   margin: 0 auto;
+   width: 100%;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   font-family: 'Monda', sans-serif;
+}
+
+#slide1 {
+   background-image: url("../images/StolenBackground.jpg");
+   height: 150vh;
+   div {
+      text-align: center;
+      margin: 300px auto;
+      width: 100%;
+   }
+   #introtext {
+      font-family: 'Oleo Script', cursive;
+      font-size: 2.7em;
+      position: fixed;
+      color: #94D3D6;
+      i {
+         position: fixed;
+         top: 800px;
+      }
+   }
+}
+
+#slide2 {
+   background-image: url("../images/Routeburn.jpg");
+   background-position: center center;
+   height: 150vh;
+   div {
+      padding-top: 20%;
+      #quote {
+         padding: .5% 1%;
+         margin: auto;
+         width: 40%;
+         text-align: center;
+         background-color: rgba(178, 214, 148, 0.8);
+         color: #AC7AD6;
+         font-size: 2em;
+      }
+   }
+}
+
+#home {
+   background-color: black;
+   color: white;
+   width: 80%;
+   height: 100vh;
+   padding-top: 40%;
+/*   #nav {
+      margin: auto;
+      padding: 750px 0 0 0;
+      text-align: center;
+      div {
+         width: 200px;
+         height: 200px;
+         color: white;
+         list-style-type: none;
+         display: inline-block;
+         img {
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            top: 50px;
+            display: block;
+            margin: auto;
+         }
+         p {
+            display: inline-block;
+            position: relative;
+            top: 50%
+         }
+      }
+   }
+   #profile {
+   }
+   #pro {
+   }
+   #photo {
+   }
+   #blog {
+   }
+   #footer {
+      color: white;
+      position: fixed;
+   }*/
+}
+
+
