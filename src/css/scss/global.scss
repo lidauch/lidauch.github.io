@@ -1,9 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+
 body {
    background-color: black;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
-@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
 
 .page {
    background-size: cover;
@@ -21,17 +21,21 @@ body {
    height: 150vh;
    div {
       text-align: center;
-      margin: 300px auto;
       width: 100%;
    }
    #introtext {
+      margin: auto;
+      top: 30%;
       font-family: 'Oleo Script', cursive;
       font-size: 2.7em;
       position: fixed;
       color: #94D3D6;
-      i {
-         position: fixed;
-         top: 800px;
+      a {
+         text-decoration: none;
+         color: #94D3D6;
+         i {
+            padding-top: 8%;
+         }
       }
    }
 }
@@ -50,29 +54,31 @@ body {
          background-color: rgba(178, 214, 148, 0.8);
          color: #AC7AD6;
          font-size: 2em;
+         border-radius: 8% 2%;
       }
    }
 }
 
 #home {
-   background-color: black;
+   background-color: gray;
    color: white;
    width: 80%;
-   height: 100vh;
-   padding-top: 40%;
-/*   #nav {
+   min-height: 100vh;
+   #nav {
+      position: absolute;
       margin: auto;
-      padding: 750px 0 0 0;
-      text-align: center;
+/*      padding: 750px 0 0 0;
+*/    text-align: center;
+      bottom: 20%;
       div {
-         width: 200px;
-         height: 200px;
+         width: 15%;
+         height: 15%;
          color: white;
          list-style-type: none;
          display: inline-block;
          img {
-            height: 150px;
-            width: 150px;
+            height: 20%;
+            width: 20%;
             display: inline-block;
             top: 50px;
             display: block;
@@ -93,10 +99,15 @@ body {
    }
    #blog {
    }
-   #footer {
-      color: white;
-      position: fixed;
-   }*/
+}
+
+#footer {
+   margin: auto;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
 }
 
 
