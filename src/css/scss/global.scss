@@ -1,8 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
 
+/*@keyframes fade {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}*/
+
 body {
    background-color: black;
+   a { 
+      text-decoration: none;
+   }
 }
 
 .page {
@@ -26,7 +43,7 @@ body {
    #introtext {
       margin: auto;
       top: 30%;
-      font-family: 'Oleo Script', cursive;
+      font-family: 'Oleo Script', sans-serif;
       font-size: 2.7em;
       position: fixed;
       color: #94D3D6;
@@ -60,46 +77,86 @@ body {
 }
 
 #home {
-   background-color: gray;
+   background-color: black;
    color: white;
    width: 80%;
    min-height: 100vh;
    #nav {
+      width: 100%;
+      height: 100%;
       position: absolute;
       margin: auto;
-/*      padding: 750px 0 0 0;
-*/    text-align: center;
-      bottom: 20%;
-      div {
-         width: 15%;
-         height: 15%;
+      text-align: center;
+      #blocks {
+         height: 90%;
+         width: 100%;
+         margin-top: 2.5%;
+         font-size: 3em;
+         div {
+         height: 50%;
+         width: 50%;
          color: white;
          list-style-type: none;
-         display: inline-block;
-         img {
-            height: 20%;
-            width: 20%;
-            display: inline-block;
-            top: 50px;
-            display: block;
-            margin: auto;
-         }
-         p {
-            display: inline-block;
-            position: relative;
-            top: 50%
+            p {
+               display: inline-block;
+               position: relative;
+               top: 25%;
+            }
          }
       }
+      #about {
+         background-color: #94D3D6;
+         float: left;
+      }
+      #about:hover {
+/*         animation: fade 2s;
+*/         background-image: url("../images/AboutMe.jpg");
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-position: center;
+         transition: all 0.7s ease 0s;
+
+      }
+      #pro {
+         float: right;
+         background-image: url("../images/Europe.jpg");
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-position: center;
+      }
+      #pro:hover {
+/*         animation: fade 2s;
+*/         background-image: none;
+         background-color: #D69794;
+         transition: all 0.7s ease 0s;
+      }
+      #photo {
+         float: left;
+         background-image: url("../images/Flower.jpg");
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-position: center;
+      }
+      #photo:hover {
+/*         animation: fade 2s;
+*/         background-image: none;
+         background-color: #D69794;
+         transition: all 0.7s ease 0s;
+      }
+      #blog {
+         background-color: #94D3D6;         
+         float: right;
+      }
+      #blog:hover {
+/*         animation: fade 2s;
+*/         background-image: url("../images/HalfMarathon.jpg");
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-position: center;
+         transition: all 0.7s ease 0s;
+      }
    }
-   #profile {
-   }
-   #pro {
-   }
-   #photo {
-   }
-   #blog {
-   }
-}
+}  
 
 #footer {
    margin: auto;
@@ -107,7 +164,21 @@ body {
    bottom: 0;
    width: 100%;
    background-color: black;
-   color: white;
+   color: #94D3D6;
+   font-family: 'Monda', sans-serif;
+   p {
+      display: inline-block;
+      float: left;
+      padding-left: 2%;
+      a {
+         color: #AC7AD6;
+      }
+   }
+   .lydia {
+         font-family: 'Oleo Script', sans-serif;
+         float: right;
+         padding-right: 5%; 
+   }
 }
 
 
