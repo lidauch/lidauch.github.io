@@ -1,7 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+/*@keyframes fade {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}*/
 body {
   background-color: black; }
+  body a {
+    text-decoration: none; }
 
 .page {
   background-size: cover;
@@ -22,7 +37,7 @@ body {
   #slide1 #introtext {
     margin: auto;
     top: 30%;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Oleo Script', sans-serif;
     font-size: 2.7em;
     position: fixed;
     color: #94D3D6; }
@@ -49,34 +64,76 @@ body {
       border-radius: 8% 2%; }
 
 #home {
-  background-color: gray;
+  background-color: black;
   color: white;
   width: 80%;
   min-height: 100vh; }
   #home #nav {
+    width: 100%;
+    height: 100%;
     position: absolute;
     margin: auto;
-    /*      padding: 750px 0 0 0;
-    */
-    text-align: center;
-    bottom: 20%; }
-    #home #nav div {
-      width: 15%;
-      height: 15%;
-      color: white;
-      list-style-type: none;
-      display: inline-block; }
-      #home #nav div img {
-        height: 20%;
-        width: 20%;
-        display: inline-block;
-        top: 50px;
-        display: block;
-        margin: auto; }
-      #home #nav div p {
-        display: inline-block;
-        position: relative;
-        top: 50%; }
+    text-align: center; }
+    #home #nav #blocks {
+      height: 90%;
+      width: 100%;
+      margin-top: 2.5%;
+      font-size: 3em; }
+      #home #nav #blocks div {
+        height: 50%;
+        width: 50%;
+        color: white;
+        list-style-type: none; }
+        #home #nav #blocks div p {
+          display: inline-block;
+          position: relative;
+          top: 25%; }
+    #home #nav #about {
+      background-color: #94D3D6;
+      float: left; }
+    #home #nav #about:hover {
+      /*         animation: fade 2s;
+      */
+      background-image: url("../images/AboutMe.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: all 0.7s ease 0s; }
+    #home #nav #pro {
+      float: right;
+      background-image: url("../images/Europe.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #home #nav #pro:hover {
+      /*         animation: fade 2s;
+      */
+      background-image: none;
+      background-color: #D69794;
+      transition: all 0.7s ease 0s; }
+    #home #nav #photo {
+      float: left;
+      background-image: url("../images/Flower.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #home #nav #photo:hover {
+      /*         animation: fade 2s;
+      */
+      background-image: none;
+      background-color: #D69794;
+      transition: all 0.7s ease 0s; }
+    #home #nav #blog {
+      background-color: #94D3D6;
+      float: right; }
+    #home #nav #blog:hover {
+      /*         animation: fade 2s;
+      */
+      background-image: url("../images/HalfMarathon.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: all 0.7s ease 0s; }
 
 #footer {
   margin: auto;
@@ -84,6 +141,17 @@ body {
   bottom: 0;
   width: 100%;
   background-color: black;
-  color: white; }
+  color: #94D3D6;
+  font-family: 'Monda', sans-serif; }
+  #footer p {
+    display: inline-block;
+    float: left;
+    padding-left: 2%; }
+    #footer p a {
+      color: #AC7AD6; }
+  #footer .lydia {
+    font-family: 'Oleo Script', sans-serif;
+    float: right;
+    padding-right: 5%; }
 
 /*# sourceMappingURL=global.css.map */
