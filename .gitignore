@@ -1,2 +1,4 @@
 src/css/.sass-cache/*
 src/css/global.css.map
+npm-debug.log
+.sass-cache/
