@@ -1,20 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
 
-/*@keyframes fade {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
-}*/
-
 body {
    background-color: black;
    a { 
@@ -34,7 +20,7 @@ body {
 }
 
 #slide1 {
-   background-image: url("../images/StolenBackground.jpg");
+   background-image: url("../../src/images/StolenBackground.jpg");
    height: 150vh;
    div {
       text-align: center;
@@ -58,7 +44,7 @@ body {
 }
 
 #slide2 {
-   background-image: url("../images/Routeburn.jpg");
+   background-image: url("../../src/images/Routeburn.jpg");
    background-position: center center;
    height: 150vh;
    div {
@@ -69,7 +55,7 @@ body {
          width: 40%;
          text-align: center;
          background-color: rgba(178, 214, 148, 0.8);
-         color: #AC7AD6;
+         color: black;
          font-size: 2em;
          border-radius: 8% 2%;
       }
@@ -111,7 +97,7 @@ body {
       }
       #about:hover {
 /*         animation: fade 2s;
-*/         background-image: url("../images/AboutMe.jpg");
+*/         background-image: url("../../src/images/AboutMe.jpg");
          background-size: cover;
          background-repeat: no-repeat; 
          background-position: center;
@@ -120,7 +106,7 @@ body {
       }
       #pro {
          float: right;
-         background-image: url("../images/Europe.jpg");
+         background-image: url("../../src/images/Europe.jpg");
          background-size: cover;
          background-repeat: no-repeat; 
          background-position: center;
@@ -128,12 +114,12 @@ body {
       #pro:hover {
 /*         animation: fade 2s;
 */         background-image: none;
-         background-color: #D69794;
+         background-color: rgb(178, 214, 148);
          transition: all 0.7s ease 0s;
       }
       #photo {
          float: left;
-         background-image: url("../images/Flower.jpg");
+         background-image: url("../../src/images/Flower.jpg");
          background-size: cover;
          background-repeat: no-repeat; 
          background-position: center;
@@ -141,7 +127,7 @@ body {
       #photo:hover {
 /*         animation: fade 2s;
 */         background-image: none;
-         background-color: #D69794;
+         background-color: rgb(178, 214, 148);
          transition: all 0.7s ease 0s;
       }
       #blog {
@@ -150,7 +136,7 @@ body {
       }
       #blog:hover {
 /*         animation: fade 2s;
-*/         background-image: url("../images/HalfMarathon.jpg");
+*/         background-image: url("../../src/images/HalfMarathon.jpg");
          background-size: cover;
          background-repeat: no-repeat; 
          background-position: center;
@@ -172,7 +158,7 @@ body {
       float: left;
       padding-left: 2%;
       a {
-         color: #AC7AD6;
+         color: #EBEBEB;
       }
    }
    .lydia {
@@ -181,5 +167,3 @@ body {
          padding-right: 5%; 
    }
 }
-
-

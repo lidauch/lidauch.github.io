@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+
+#about_me {
+	color: white;
+	width: 80%;
+	margin: auto;
+	font-family: 'Monda', sans-serif;
+	#hello_text {
+		color: #94D3D6;
+		font-family: 'Oleo Script', sans-serif;
+		font-size: 1.3em;
+		margin: auto;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	#about_me_text {
+		margin: auto;
+		color: #EBEBEB;
+		strong {
+			color: #94D3D6;
+			font-size: 1.2em;
+		}
+		a {
+			color: #94D3D6;
+		}
+		a:hover {
+			color: #EBEBEB;
+		}
+
+	}
+	#follow_me {
+		padding-top: 5%;
+		display: table;
+		padding-bottom: 5em;
+		color: #EBEBEB;
+		div {
+			text-align: center;
+			display: table-cell;
+			margin: auto;
+			width: 22%;
+			img {
+				display: block;
+				width: 50px;
+				margin: auto;
+				-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    			filter: grayscale(100%);
+			}
+		}
+	}
+}
+#footer {
+	margin-top: 60px;
+}

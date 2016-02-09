@@ -1,18 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
-/*@keyframes fade {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
-}*/
 body {
   background-color: black; }
   body a {
@@ -29,7 +16,7 @@ body {
   font-family: 'Monda', sans-serif; }
 
 #slide1 {
-  background-image: url("../images/StolenBackground.jpg");
+  background-image: url("../../src/images/StolenBackground.jpg");
   height: 150vh; }
   #slide1 div {
     text-align: center;
@@ -48,7 +35,7 @@ body {
         padding-top: 8%; }
 
 #slide2 {
-  background-image: url("../images/Routeburn.jpg");
+  background-image: url("../../src/images/Routeburn.jpg");
   background-position: center center;
   height: 150vh; }
   #slide2 div {
@@ -59,7 +46,7 @@ body {
       width: 40%;
       text-align: center;
       background-color: rgba(178, 214, 148, 0.8);
-      color: #AC7AD6;
+      color: black;
       font-size: 2em;
       border-radius: 8% 2%; }
 
@@ -95,14 +82,14 @@ body {
     #home #nav #about:hover {
       /*         animation: fade 2s;
       */
-      background-image: url("../images/AboutMe.jpg");
+      background-image: url("../../src/images/AboutMe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       transition: all 0.7s ease 0s; }
     #home #nav #pro {
       float: right;
-      background-image: url("../images/Europe.jpg");
+      background-image: url("../../src/images/Europe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
@@ -110,11 +97,11 @@ body {
       /*         animation: fade 2s;
       */
       background-image: none;
-      background-color: #D69794;
+      background-color: #b2d694;
       transition: all 0.7s ease 0s; }
     #home #nav #photo {
       float: left;
-      background-image: url("../images/Flower.jpg");
+      background-image: url("../../src/images/Flower.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
@@ -122,7 +109,7 @@ body {
       /*         animation: fade 2s;
       */
       background-image: none;
-      background-color: #D69794;
+      background-color: #b2d694;
       transition: all 0.7s ease 0s; }
     #home #nav #blog {
       background-color: #94D3D6;
@@ -130,7 +117,7 @@ body {
     #home #nav #blog:hover {
       /*         animation: fade 2s;
       */
-      background-image: url("../images/HalfMarathon.jpg");
+      background-image: url("../../src/images/HalfMarathon.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -149,7 +136,7 @@ body {
     float: left;
     padding-left: 2%; }
     #footer p a {
-      color: #AC7AD6; }
+      color: #EBEBEB; }
   #footer .lydia {
     font-family: 'Oleo Script', sans-serif;
     float: right;
