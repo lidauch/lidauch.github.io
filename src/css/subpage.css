@@ -36,12 +36,26 @@
       #about_me #follow_me div img {
         display: block;
         width: 50px;
-        margin: auto;
-        -webkit-filter: grayscale(100%);
-        /* Chrome, Safari, Opera */
-        filter: grayscale(100%); }
+        margin: auto; }
 
 #footer {
   margin-top: 60px; }
+
+.subpage_set {
+  background-color: rgba(100, 100, 100, 0.2);
+  margin: auto;
+  width: 90%;
+  color: #94D3D6;
+  font-family: 'Oleo Script', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%; }
+  .subpage_set p {
+    color: white; }
+    .subpage_set p a {
+      text-decoration: none;
+      color: #94D3D6; }
+    .subpage_set p a:hover {
+      color: white; }
 
 /*# sourceMappingURL=subpage.css.map */
