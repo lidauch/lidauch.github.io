@@ -28,3 +28,7 @@ $(window).scroll(function() {
         $('#introtext').show();
     }
 });
+
+// $(document).ready(function() {
+//     $('.icon').
+// })

@@ -81,3 +81,67 @@
 	
 }
 
+#prof_page {
+	color: white;
+	width: 80%;
+	margin: auto;
+	font-family: 'Monda', sans-serif;
+	#hello_text {
+		color: #94D3D6;
+		font-family: 'Oleo Script', sans-serif;
+		font-size: 1.3em;
+		margin: auto;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	#examples {
+		margin: auto;
+		width: auto;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #94D3D6;
+		}
+	}
+
+}
+
+#awd_page {
+	color: white;
+	width: 80%;
+	margin: auto;
+	font-family: 'Monda', sans-serif;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #94D3D6;
+	}
+	#hello_text {
+		color: #94D3D6;
+		font-family: 'Oleo Script', sans-serif;
+		font-size: 1em;
+		margin: auto;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	#essay {
+		margin: auto;
+		width: 90%;
+		margin-bottom: 15%;
+		a {
+			color: #94D3D6;
+			text-decoration: none;
+		}
+		a:hover {
+			color: white;
+		}
+	}
+}
+
+

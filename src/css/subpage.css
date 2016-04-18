@@ -58,4 +58,54 @@
     .subpage_set p a:hover {
       color: white; }
 
+#prof_page {
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-family: 'Monda', sans-serif; }
+  #prof_page #hello_text {
+    color: #94D3D6;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 1.3em;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center; }
+  #prof_page #examples {
+    margin: auto;
+    width: auto; }
+    #prof_page #examples a {
+      color: white;
+      text-decoration: none; }
+    #prof_page #examples a:hover {
+      color: #94D3D6; }
+
+#awd_page {
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-family: 'Monda', sans-serif; }
+  #awd_page a {
+    color: white;
+    text-decoration: none; }
+  #awd_page a:hover {
+    color: #94D3D6; }
+  #awd_page #hello_text {
+    color: #94D3D6;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center; }
+  #awd_page #essay {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 15%; }
+    #awd_page #essay a {
+      color: #94D3D6;
+      text-decoration: none; }
+    #awd_page #essay a:hover {
+      color: white; }
+
 /*# sourceMappingURL=subpage.css.map */
