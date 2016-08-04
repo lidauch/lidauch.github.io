@@ -1,0 +1,60 @@
+
+
+<html>
+<head>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="dist/css/style.min.css"/>
+    <link type="text/css" rel="stylesheet" href="src/css/subpage.css"/>
+    <!-- JS -->
+    <script type="text/javascript" src="src/js/lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="dist/personal_website.min.js"></script>
+    <title>
+        Lydia Auch
+    </title>
+</head>
+<body>
+<section class="subpage_set" id="jar_page">
+    <h1>GET FIT NOT FAT</h1>
+    <div class="jar" id="lydiasjar">
+        <p>Lydia's Jar</p>
+        <div id="result"></div>
+        <script>
+            document.getElementById("result").innerHTML = "You have " + localStorage.clickcountL + " dollars in your jar.";
+            var a = 0;
+            function clickCounter() {
+                if (localStorage.clickcountL) {
+                    localStorage.clickcountL = Number(localStorage.clickcountL)+0.5;
+                } else {
+                    localStorage.clickcountL = 0.50;
+                }
+                document.getElementById("result").innerHTML = "You have " + localStorage.clickcountL + " dollars in your jar.";
+            }
+        </script>
+        <p><button onclick="clickCounter()" type="button">Add $0.50 to this Jar!</button></p>
+    </div>
+    <div class="jar" id="julisjar">
+        <p>Juli's Jar</p>
+        <div id="result2"></div>
+        <script>
+            document.getElementById("result2").innerHTML = "You have " + localStorage.clickcountJ + " dollars in your jar.";
+            var a = 0;
+            function clickCounterJ() {
+                if (localStorage.clickcountJ) {
+                    localStorage.clickcountJ = Number(localStorage.clickcountJ)+0.5;
+                } else {
+                    localStorage.clickcountJ = 0.50;
+                }
+                document.getElementById("result2").innerHTML = "You have " + localStorage.clickcountJ + " dollars in your jar.";
+            }
+        </script>
+        <p><button onclick="clickCounterJ()" type="button">Add $0.50 to this Jar!</button></p>
+    </div>
+</section>
+<section>
+    <div id="footer">
+        <p><a href="index.html#home">Home</a></p>
+        <p class="lydia">Lydia Auch</p>
+    </div>
+</section>
+</body>
+</html>

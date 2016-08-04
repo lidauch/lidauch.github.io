@@ -108,4 +108,15 @@
     #awd_page #essay a:hover {
       color: white; }
 
+#jar_page .jar {
+  width: 40%;
+  margin: auto;
+  background-color: slategray;
+  border-radius: 25px;
+  padding: 10px; }
+#jar_page #lydiasjar {
+  float: left; }
+#jar_page #julisjar {
+  float: right; }
+
 /*# sourceMappingURL=subpage.css.map */

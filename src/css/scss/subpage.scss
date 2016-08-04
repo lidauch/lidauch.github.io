@@ -144,4 +144,21 @@
 	}
 }
 
+#jar_page {
+	.jar {
+		width: 40%;
+		margin: auto;
+		background-color: slategray;
+		border-radius: 25px;
+		padding: 10px;
+	}
+
+	#lydiasjar {
+		float: left;
+	}
+	#julisjar {
+		float: right;
+	}
+}
+
 
