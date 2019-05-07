@@ -1,14 +1,72 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* NAVIGATION */
+#navigation {
+    margin: 20px auto;
+    width: 80%;
+    height: 90vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+#navigation .navBlock {
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.navBlock:hover {
+    transition: all 0.7s ease 0s,
+                background 0.9s ease;
+}
+
+#About {
+    background-size: cover;
+    background-image: url('images/glacier2.jpg');
+}
+#About:hover {
+    background: #8FBDE3;
+}
+#Professional {
+    color: #8FBDE3;
+    background-color: #8FBDE3;
+}
+#Professional:hover {
+    background-size: cover;
+    background-image: url('images/northeastern.jpg');
+}
+#Travel {
+    background-color: #8FBDE3;
+}
+#Travel:hover {
+    background-size: cover;
+    background-image: url('images/nh.jpg');
+}
+#Photography {
+    background-size: cover;
+    background-image: url('images/paris.jpg');
+}
+#Photography:hover {
+    background: #8FBDE3;
+}
+
+/* FOOTER */
+#footer {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#footer p {
+    float: right;
+    padding-right: 2%;
 }
